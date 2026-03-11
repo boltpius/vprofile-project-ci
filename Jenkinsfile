@@ -1,11 +1,11 @@
 pipeline {
-    ageny any 
+    agent any 
     tools {
         jdk "JDK17"
         maven "MAVEN3.9"
     }
 
-    enviorment {
+    environment {
         SNAP_REPO = 'vprofile-snapshot'
         NEXUS_USER = 'admin'
         NEXUS_PASS = 'admin123'
